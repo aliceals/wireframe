@@ -16,3 +16,26 @@ img {
     display: block;
     width: 100%;
 }
+
+main {
+    max-width: 900px;
+    margin: auto;
+}
+
+
+
+.btn {
+    padding: 0.5rem 0.5rem;
+    background-color: #c0c0c0;
+    border: 1px #ccc solid; 
+    text-align: center;
+    margin-left: 14rem;
+    margin-right: 14rem;
+   
+    
+ }
+
+
+details summary::-webkit-details-marker {
+  display:none;
+}
