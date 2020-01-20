@@ -14,8 +14,8 @@
 
 <body>
 
-    <section class="landing">
-        <figure class="branding">
+    <section>
+        <figure>
             <img src="images/sitebranding.png" alt="Site Branding image" class="hero-image">
         </figure>
     </section>
@@ -23,88 +23,79 @@
         <div class="notification-button">
             <button onclick="toggleNotification()">Hide / show</button>
         </div>
-        <div id="notification">
-            <button class="text-button" onclick="toggleNotification()">x</button>
-            <h3 id="notificationheader">Notification!</h3>
+        <section id="notification">
+            <button title="close notification" class="text-button" onclick="toggleNotification()">x</button>
+            <h3>Notification!</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                et
-                dolore magna aliqua. Enim sed faucibus turpis in eu mi bibendum neque. Consectetur purus ut faucibus
-                pulvinar elementum integer enim. Risus sed vulputate odio ut.</p>
-        </div>
-        <section class="intro">
+                et dolore magna aliqua. Enim sed faucibus turpis in eu mi bibendum neque. Consectetur purus ut faucibus
+                pulvinar elementum integer enim. Risus sed vulputate odio ut.
+            </p>
+        </section>
+        <section>
             <header>
                 <h1>Intro heading</h1>
             </header>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                et
-                dolore magna aliqua. Enim sed faucibus turpis in eu mi bibendum neque. Consectetur purus ut faucibus
+                et dolore magna aliqua. Enim sed faucibus turpis in eu mi bibendum neque. Consectetur purus ut faucibus
                 pulvinar elementum integer enim. Risus sed vulputate odio ut. Vitae purus faucibus ornare
-                suspendisse
-                sed nisi lacus sed viverra. Amet nulla facilisi morbi tempus iaculis urna id volutpat.</p>
+                suspendisse sed nisi lacus sed viverra. Amet nulla facilisi morbi tempus iaculis urna id volutpat.
+            </p>
         </section>
-
         <section>
             <header>
                 <h2>A sub heading</h2>
             </header>
-            <div class="container">
-                <figure class="body-image">
-                    <img src="images/image.png" alt="mock image for wireframe">
+            <div class="article-link-container">
+                <figure class="article-preview-image">
+                    <img src="images/image.png" alt="mock article image for wireframe">
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                        labore
-                        et
-                        dolore magna aliqua. Enim sed faucibus turpis in eu mi bibendum neque.</p>
+                        labore et dolore magna aliqua. Enim sed faucibus turpis in eu mi bibendum neque.
+                    </p>
                 </figure>
-                <figure class="body-image">
-                    <img src="images/image.png" alt="mock image for wireframe">
+                <figure class="article-preview-image">
+                    <img src="images/image.png" alt="mock article image for wireframe">
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                        labore
-                        et
-                        dolore magna aliqua. Enim sed faucibus turpis in eu mi bibendum neque.</p>
+                        labore et dolore magna aliqua. Enim sed faucibus turpis in eu mi bibendum neque.
+                    </p>
                 </figure>
-                <figure class="body-image">
-                    <img src="images/image.png" alt="mock image for wireframe">
+                <figure class="article-preview-image">
+                    <img src="images/image.png" alt="mock article image for wireframe">
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                        labore
-                        et
-                        dolore magna aliqua. Enim sed faucibus turpis in eu mi bibendum neque.</p>
+                        labore et dolore magna aliqua. Enim sed faucibus turpis in eu mi bibendum neque.
+                    </p>
                 </figure>
-                <figure class="body-image">
-                    <img src="images/image.png" alt="mock image for wireframe">
+                <figure class="article-preview-image">
+                    <img src="images/image.png" alt="mock article image for wireframe">
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                        labore
-                        et
-                        dolore magna aliqua. Enim sed faucibus turpis in eu mi bibendum neque.</p>
+                        labore et dolore magna aliqua. Enim sed faucibus turpis in eu mi bibendum neque.
+                    </p>
                 </figure>
-                <figure class="body-image">
-                    <img src="images/image.png" alt="mock image for wireframe">
+                <figure class="article-preview-image">
+                    <img src="images/image.png" alt="mock article image for wireframe">
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                        labore
-                        et
-                        dolore magna aliqua. Enim sed faucibus turpis in eu mi bibendum neque.</p>
+                        labore et dolore magna aliqua. Enim sed faucibus turpis in eu mi bibendum neque.
+                    </p>
                 </figure>
-                <figure class="body-image">
-                    <img src="images/image.png" alt="mock image for wireframe">
+                <figure class="article-preview-image">
+                    <img src="images/image.png" alt="mock article image for wireframe">
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                        labore
-                        et
-                        dolore magna aliqua. Enim sed faucibus turpis in eu mi bibendum neque.</p>
+                        labore et dolore magna aliqua. Enim sed faucibus turpis in eu mi bibendum neque.
+                    </p>
                 </figure>
-
-
             </div>
         </section>
     </main>
     <footer>
         <hr>
-        <div class="footerlinks">
+        <nav>
             <a href="https://alicealsford.com">Link1</a>
             <a href="https://alicealsford.com">Link2</a>
             <a href="https://alicealsford.com">Link3</a>
-        </div>
+        </nav>
     </footer>
 </body>
 <script>
+    //live reload plugin
     document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] +
         ':35729/livereload.js?snipver=1"></' + 'script>')
 </script>

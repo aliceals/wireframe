@@ -1,14 +1,13 @@
 let showNotification = true
 
-
-
 function toggleNotification() {
-    var element = document.getElementById("notification");
+    var notificationElement = document.getElementById("notification")
 
     if (showNotification) {
-        element.classList.add("hidden");
+        notificationElement.classList.add("hidden")
     } else {
-        element.classList.remove("hidden");
+        notificationElement.classList.remove("hidden")
     }
+
     showNotification = !showNotification
 }

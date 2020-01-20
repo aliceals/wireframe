@@ -2,10 +2,7 @@
 
 html {
     font-size: 14px;
-   
 }
-
- 
 
 body {
     font-family: 'Roboto', sans-serif;
@@ -25,9 +22,18 @@ h3 {
     font-size: 2rem;
 }
 
+p {
+    font-size: 1.5rem;
+}
+
 img {
     display: block;
     width: 100%;
+}
+
+.article-preview-image {
+             flex: 30%;
+             padding: 5px;
 }
 
 main {
@@ -50,19 +56,20 @@ button {
    float: right;
 }
 
-
- .notification-button{
+ .notification-button {
      text-align: center;
+      margin: 2rem 0rem
  }
 
-
+ #notification {
+    background-color: 	#686868;
+    color: white;
+    padding: 1rem 2rem;
+    margin-top: 1.5rem;
+}
 
 figure {
     margin: 0rem;
-}
-
-p {
-    font-size: 1.5rem;
 }
 
 hr {
@@ -74,13 +81,13 @@ footer {
     margin-top: 5rem;
 }
 
-.footerlinks{
+footer nav {
     text-align: center;
     margin-bottom: 2rem;
     margin-top: 2rem;
 }
 
-.footerlinks a {
+footer nav a {
     text-align: center;
     margin: 1.5em;
     text-decoration: none;
@@ -95,78 +102,78 @@ summary {
     margin-top: 2rem;
 }
 
-#notification {
-    background-color: 	#686868;
-    color: white;
-    padding: 1rem 2rem;
-    margin-top: 1.5rem;
-
-}
-
-
-
 .hidden {
     display: none;
 }
 
-@media screen and (min-width: 900px){
-        html {/* font-size: 12px */}
-        .body-image {
-            max-width: 50%
+@media screen and (min-width: 750px){
+        html {
+            font-size: 12px
         }
+
+        h1 {
+            font-size: 4rem; 
+        }
+        h2 {
+            font-size: 3rem;
+        }
+       
          main {
            margin: 0 5rem;
         }
-       
+
         .hero-image {
             max-height: 50vh;
         }
-        .container {
+
+         .article-preview-image {
+             flex: 40%;
+             padding: 5px;
+        }
+        
+        .article-link-container {
             display: flex;
              flex-wrap: wrap;
         }
-        .body-image {
-             flex: 30%;
-             padding: 5px;
-        }
+       
          .notification-button {
            text-align: left; 
         }
+    }
+
+    @media screen and (min-width: 1000px){
+        html {
+            font-size: 12px
+        }
+
         h1 {
             font-size: 4rem; 
         }
+
         h2 {
             font-size: 3rem;
         }
-       
-       
-    }
 
-    @media screen and (min-width: 1200px){
-        html {font-size: 12px}
-        .hero-image { max-height: 50vh;}
-        .container {
-            display: flex;
-            flex-wrap: wrap;
-        }
-         main {
+        main {
            margin: 0 5rem;
         }
-        .body-image {
+
+        .hero-image {
+             max-height: 50vh;
+        }
+
+        .article-preview-image {
              flex: 30%;
              padding: 5px;
         }
+
+        .article-link-container {
+            display: flex;
+            flex-wrap: wrap;
+        }
+         
+        
         .notification-button {
            text-align: left; 
-           margin: 2rem 0rem
         }
-        h1 {
-            font-size: 4rem; 
-        }
-        h2 {
-            font-size: 3rem;
-        }
-        
-        
-      
     }
