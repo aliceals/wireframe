@@ -114,6 +114,10 @@ summary {
         .body-image {
             max-width: 50%
         }
+         main {
+           margin: 0 5rem;
+        }
+       
         .hero-image {
             max-height: 50vh;
         }
@@ -128,6 +132,13 @@ summary {
          .notification-button {
            text-align: left; 
         }
+        h1 {
+            font-size: 4rem; 
+        }
+        h2 {
+            font-size: 3rem;
+        }
+       
        
     }
 
@@ -138,14 +149,24 @@ summary {
             display: flex;
             flex-wrap: wrap;
         }
+         main {
+           margin: 0 5rem;
+        }
         .body-image {
              flex: 30%;
              padding: 5px;
         }
         .notification-button {
            text-align: left; 
-           margin: 2rem 0rem;
+           margin: 2rem 0rem
         }
+        h1 {
+            font-size: 4rem; 
+        }
+        h2 {
+            font-size: 3rem;
+        }
+        
         
       
     }
