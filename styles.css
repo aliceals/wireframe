@@ -31,6 +31,10 @@ img {
     width: 100%;
 }
 
+.hero-image2 {
+    display: none;
+}
+
 .article-preview-image {
              flex: 30%;
              padding: 5px;
@@ -123,7 +127,12 @@ summary {
         }
 
         .hero-image {
+            display: none;
+        }
+
+         .hero-image2 {
             max-height: 50vh;
+            display: block; 
         }
 
          .article-preview-image {
@@ -159,7 +168,12 @@ summary {
         }
 
         .hero-image {
-             max-height: 50vh;
+            display: none;
+        }
+
+         .hero-image2 {
+            max-height: 50vh;
+            display: block; 
         }
 
         .article-preview-image {
