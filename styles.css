@@ -31,21 +31,27 @@ main {
     margin: 1rem;
 }
 
-.btn {
+button {
     padding: 0.5rem 0.5rem;
     background-color: #c0c0c0;
-    border: 1px #ccc solid; 
-    text-align: center;
-    margin: auto;
-    max-width: 9rem;
     color: #696969;
-  
+    font-size: 1.5rem;
+ }
+
+.text-button {
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 4rem;
+   float: right;
+}
+
+
+ .notification-button{
+     text-align: center;
  }
 
 
-details summary::-webkit-details-marker {
-  display:none;
-}
 
 figure {
     margin: 0;
@@ -87,7 +93,7 @@ summary {
     margin-top: 2rem;
 }
 
-.notification {
+#notification {
     background-color: 	#686868;
     color: white;
     padding: 1rem 2rem;
@@ -95,11 +101,7 @@ summary {
 
 }
 
-.close {
-    color: white;
-    font-size: 4rem;
-   float: right;
-}
+
 
 .hidden {
     display: none;
