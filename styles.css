@@ -8,12 +8,17 @@ body {
 
 h1 {
     font-weight: 200;
-    font-size: 2.5rem;
+    font-size: 3.25rem;
 }
 
 h2 {
     font-weight: 200;
-    font-size: 2.5rem;
+    font-size: 3.25rem;
+}
+
+h3 {
+    font-weight: 200;
+    font-size: 2rem;
 }
 
 img {
@@ -32,7 +37,8 @@ main {
     border: 1px #ccc solid; 
     text-align: center;
     margin: auto;
-    max-width: 8rem;
+    max-width: 9rem;
+    color: #696969;
   
  }
 
@@ -46,7 +52,8 @@ figure {
 }
 
 p {
-    font-size: 1.25rem;
+    font-size: 1.5rem;
+    font-weight: lighter;
 }
 
 hr {
@@ -74,4 +81,26 @@ footer {
 
 section p {
     margin-bottom: 3rem;
+}
+
+summary {
+    margin-top: 2rem;
+}
+
+.notification {
+    background-color: 	#686868;
+    color: white;
+    padding: 1rem 2rem;
+    margin-top: 1.5rem;
+
+}
+
+.close {
+    color: white;
+    font-size: 4rem;
+   float: right;
+}
+
+.hidden {
+    display: none;
 }

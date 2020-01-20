@@ -20,17 +20,17 @@
         </figure>
     </section>
     <main>
-        <details>
-            <summary>
-                <p class="btn">Hide/show</p>
-            </summary>
-            <h2 id="notification">Notification!</h2>
-            <button class="close">x</button>
+        <summary>
+            <button class="btn" onclick="toggleNotification()">Hide / show</button>
+        </summary>
+        <div id="notification">
+            <button class="close" onclick="toggleNotification()">x</button>
+            <h3 id="notificationheader">Notification!</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
                 et
                 dolore magna aliqua. Enim sed faucibus turpis in eu mi bibendum neque. Consectetur purus ut faucibus
                 pulvinar elementum integer enim. Risus sed vulputate odio ut.</p>
-        </details>
+        </div>
         <section class="intro">
             <header>
                 <h1>Intro heading</h1>
@@ -98,5 +98,6 @@
     document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] +
         ':35729/livereload.js?snipver=1"></' + 'script>')
 </script>
+<script src="main.js"></script>
 
 </html>
