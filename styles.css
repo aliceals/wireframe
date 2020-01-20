@@ -68,7 +68,6 @@ footer {
 }
 
 .footerlinks{
-    max-width: 85%;
     text-align: center;
     margin-bottom: 2rem;
     margin-top: 1rem;
@@ -76,7 +75,7 @@ footer {
 
 .footerlinks a {
     text-align: center;
-    margin: 1.5em ;
+    margin: 1.5em;
     text-decoration: none;
     font-size: 1.25rem;
 }
