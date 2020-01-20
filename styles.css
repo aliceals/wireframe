@@ -1,5 +1,18 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:300&display=swap');
 
+html {
+    font-size: 14px;
+   
+}
+
+ @media screen and (min-width: 900px){
+        html {font-size: 12px}
+    }
+
+    @media screen and (min-width: 1200px){
+        html {font-size: 12px}
+    }
+
 body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
@@ -24,7 +37,7 @@ img {
 }
 
 main {
-    max-width: 900px;
+    max-width: 900;
     margin: 1rem;
 }
 
@@ -51,7 +64,7 @@ button {
 
 
 figure {
-    margin: 0;
+    margin: 0rem;
 }
 
 p {
@@ -64,13 +77,13 @@ hr {
 }
 
 footer {
-    margin-top: 4rem;
+    margin-top: 5rem;
 }
 
 .footerlinks{
     text-align: center;
     margin-bottom: 2rem;
-    margin-top: 1rem;
+    margin-top: 2rem;
 }
 
 .footerlinks a {
