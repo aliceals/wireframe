@@ -4,7 +4,7 @@ Wireframe for a mobile first responsive website
 # Accessibility
 Ran a lighthouse report for accessibility and it came out as 94% following the design supplied in the PSD. 
 
-The only thing holding it back from 100 was the contrast - Background and foreground colors do not have a sufficient contrast ratio. I have made the colour of the notification box and button to be a darker colour to make it easier to read for all users. 
+The only thing holding it back from 100 was the contrast - Background and foreground colors do not have a sufficient contrast ratio. I have made the colour of the notification box and button to be a darker colour to make it easier to read for all users. It is now at 100% accessibility rating.
 
 
 # Live reload
