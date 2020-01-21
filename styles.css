@@ -47,8 +47,8 @@ main {
 
 button {
     padding: 0.5rem 0.5rem;
-    background-color: #c0c0c0;
-    color: #696969;
+    background-color: #336B87;
+    color: white;
     font-size: 1.5rem;
  }
 
@@ -66,7 +66,7 @@ button {
  }
 
  #notification {
-    background-color: 	#686868;
+    background-color: 	#336B87;
     color: white;
     padding: 1rem 2rem;
     margin-top: 1.5rem;
